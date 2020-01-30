@@ -77,11 +77,6 @@ class CashRegister
     @items = []
   end
 
-  #not needed using attr_accessor
-  #def total
-   # return @total
-  #  puts "The Current Total is $#{@total}."
-  #end
 
   def add_item(item, price, quantity = 1)
     @sub_total = price * quantity
@@ -118,17 +113,7 @@ class CashRegister
     self.total -= self.sub_total
   end
 
-  end #end class
+  def void_last_transaction (items)
+    self.items -= self.total
 
-  #Testing
-
-  #cash_register = CashRegister.new
-  cash_register_with_discount = CashRegister.new(10)
-  cash_register_with_discount.add_item("milk", 5.00, 3)
-  cash_register_with_discount.add_item("juice", 3.00, 2)
-  #cash_register_with_discount.apply_discount
-  cash_register_with_discount.total
-  #cash_register_with_discount.items
-  #cash_register_with_discount.void_last_transaction
-  #cash_register = CashRegister.new(10)
-  #puts cash_register.discount
+  end
