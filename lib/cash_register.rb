@@ -9,7 +9,7 @@ class CashRegister
   end
 
   def total(num = 100)
-    @cash_register = num
+    @total = num
 
   end
 
