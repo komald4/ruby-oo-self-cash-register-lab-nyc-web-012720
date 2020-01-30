@@ -108,12 +108,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    #puts "The Current Total is $#{@total}."
-    #puts "The Subtotal is $#{@sub_total}."
+
     self.total -= self.sub_total
   end
-
-  def void_last_transaction
-    self.items -= self.sub_total
-end
   end
