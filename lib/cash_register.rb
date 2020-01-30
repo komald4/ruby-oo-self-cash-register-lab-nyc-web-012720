@@ -1,3 +1,4 @@
+requires 'pry'
 class CashRegister
 
   attr_accessor :total
@@ -12,6 +13,7 @@ class CashRegister
   end
 
   def add_item(title, price)
+    
   end
 
 end
