@@ -75,6 +75,7 @@ class CashRegister
     @total = 0
     @discount = discount
     @items = []
+    @sub_total = num
   end
 
 
