@@ -12,11 +12,16 @@ class CashRegister
      @cash_register = discount
    end
 
+   def items
+      @items
+    end
   # def add_item(title, price)
   def add_item(title, price, quantity = 1)
    self.total += price * quantity
    quantity.times do
      items << total
+
+     
    end
 
   end
