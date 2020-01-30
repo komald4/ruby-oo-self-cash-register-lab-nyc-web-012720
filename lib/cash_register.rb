@@ -106,9 +106,9 @@ class CashRegister
   def items
      @items
   end
-def sub_total
-    @sub_total
-end
+# def sub_total
+#     @sub_total
+# end
 
   def void_last_transaction
     self.total -= self.sub_total
