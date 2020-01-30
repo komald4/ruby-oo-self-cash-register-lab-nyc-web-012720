@@ -3,4 +3,5 @@ class Cash_Register
 
 
 
-End
+end
+
