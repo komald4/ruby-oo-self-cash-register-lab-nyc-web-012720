@@ -8,9 +8,9 @@ class CashRegister
       @total = cash_register
   end
 
-   def discount(discount = 20)
-     @cash_register = discount
-   end
+  #  def discount(discount = 20)
+  #    @cash_register = discount
+  #  end
 
    def items
       @items
@@ -20,8 +20,6 @@ class CashRegister
    self.total += price * quantity
    quantity.times do
    end
-
-
 
 
    def apply_discount
