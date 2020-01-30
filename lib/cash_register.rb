@@ -1,4 +1,4 @@
-class CashRegister
+class Cash_Register
 
 
 
