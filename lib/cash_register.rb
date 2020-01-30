@@ -8,7 +8,7 @@ class CashRegister
     @cash_register = discount
   end
 
-  def total(num)
+  def total(num = 100)
     @cash_register = num
 
   end
