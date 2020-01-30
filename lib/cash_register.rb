@@ -1,7 +1,7 @@
 class CashRegister
 
   def initialize(cash_register = 0)
-    #  @CashRegister = CashRegister
+      @cash_register = cash_register
   end
 
 
