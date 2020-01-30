@@ -9,6 +9,7 @@ class CashRegister
   end
 
   def total(num = 100)
+    
   end
 
 end
