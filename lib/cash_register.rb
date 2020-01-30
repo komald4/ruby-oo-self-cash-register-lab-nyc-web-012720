@@ -1,6 +1,6 @@
-class Register
+class CashRegister
 
-  def initialize(CashRegister = 0)
+  def initialize(cash_register = 0)
     #  @CashRegister = CashRegister
   end
 
