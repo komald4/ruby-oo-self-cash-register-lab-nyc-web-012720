@@ -9,8 +9,6 @@ class CashRegister
   end
 
   def total(num = 100)
-    @cash_register = total
-returns total
   end
 
 end
